@@ -52,7 +52,7 @@ But please do see the paper for details here!
 ![](Paper/elements_table_2.PNG "")
 
 ## Requirements
-* Typical Unity project, currently targeting Unity 2019, so mileage may vary with other distributions. 
+* Typical Unity project, currently targeting Unity 2019 (2019.4.13f1), so mileage may vary with other distributions. 
 * For physical keyboards, currently our key hook interception/suppression is Windows only
 
 ## Getting Started
