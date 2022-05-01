@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2779c79e1b7ab3f4785ce4e246fa12a8, type: 3}
+  m_Name: KLFC Mapping Parser - Russian
+  m_EditorClassIdentifier: 
+  JsonFile: {fileID: 4900000, guid: 354a853a3c06ac34990b78677c4292f3, type: 3}
+  parsedRoot:
+    fullName: Russian - Custom
+    name: Layout01
+    description: 
+    qwertyShortcuts: 0
+    filter: 
+    shiftLevels:
+    - None
+    - Shift
+    - Control
+    - Alt+Control
+    keys:
+    - pos: 1
+      letters:
+      - 1
+      - '!'
+      - 
+      - 
+      shiftLevels: []
+    - pos: 2
+      letters:
+      - 2
+      - '"'
+      - 
+      - 
+      shiftLevels: []
+    - pos: 3
+      letters:
+      - 3
+      - "\u2116"
+      - 
+      - 
+      shiftLevels: []
+    - pos: 4
+      letters:
+      - 4
+      - ;
+      - 
+      - 
+      shiftLevels: []
+    - pos: 5
+      letters:
+      - 5
+      - '%'
+      - 
+      - 
+      shiftLevels: []
+    - pos: 6
+      letters:
+      - 6
+      - ':'
+      - 
+      - 
+      shiftLevels: []
+    - pos: 7
+      letters:
+      - 7
+      - '?'
+      - 
+      - 
+      shiftLevels: []
+    - pos: 8
+      letters:
+      - 8
+      - '*'
+      - 
+      - "\u20BD"
+      shiftLevels: []
+    - pos: 9
+      letters:
+      - 9
+      - (
+      - 
+      - 
+      shiftLevels: []
+    - pos: 0
+      letters:
+      - 0
+      - )
+      - 
+      - 
+      shiftLevels: []
+    - pos: '-'
+      letters:
+      - '-'
+      - _
+      - 
+      - 
+      shiftLevels: []
+    - pos: +
+      letters:
+      - =
+      - +
+      - 
+      - 
+      shiftLevels: []
+    - pos: Q
+      letters:
+      - "\u0439"
+      - "\u0419"
+      - 
+      - 
+      shiftLevels: []
+    - pos: W
+      letters:
+      - "\u0446"
+      - "\u0426"
+      - 
+      - 
+      shiftLevels: []
+    - pos: E
+      letters:
+      - "\u0443"
+      - "\u0423"
+      - 
+      - 
+      shiftLevels: []
+    - pos: R
+      letters:
+      - "\u043A"
+      - "\u041A"
+      - 
+      - 
+      shiftLevels: []
+    - pos: T
+      letters:
+      - "\u0435"
+      - "\u0415"
+      - 
+      - 
+      shiftLevels: []
+    - pos: Y
+      letters:
+      - "\u043D"
+      - "\u041D"
+      - 
+      - 
+      shiftLevels: []
+    - pos: U
+      letters:
+      - "\u0433"
+      - "\u0413"
+      - 
+      - 
+      shiftLevels: []
+    - pos: I
+      letters:
+      - "\u0448"
+      - "\u0428"
+      - 
+      - 
+      shiftLevels: []
+    - pos: O
+      letters:
+      - "\u0449"
+      - "\u0429"
+      - 
+      - 
+      shiftLevels: []
+    - pos: P
+      letters:
+      - "\u0437"
+      - "\u0417"
+      - 
+      - 
+      shiftLevels: []
+    - pos: '['
+      letters:
+      - "\u0445"
+      - "\u0425"
+      - 
+      - 
+      shiftLevels: []
+    - pos: ']'
+      letters:
+      - "\u044A"
+      - "\u042A"
+      - 
+      - 
+      shiftLevels: []
+    - pos: A
+      letters:
+      - "\u0444"
+      - "\u0424"
+      - 
+      - 
+      shiftLevels: []
+    - pos: S
+      letters:
+      - "\u044B"
+      - "\u042B"
+      - 
+      - 
+      shiftLevels: []
+    - pos: D
+      letters:
+      - "\u0432"
+      - "\u0412"
+      - 
+      - 
+      shiftLevels: []
+    - pos: F
+      letters:
+      - "\u0430"
+      - "\u0410"
+      - 
+      - 
+      shiftLevels: []
+    - pos: G
+      letters:
+      - "\u043F"
+      - "\u041F"
+      - 
+      - 
+      shiftLevels: []
+    - pos: H
+      letters:
+      - "\u0440"
+      - "\u0420"
+      - 
+      - 
+      shiftLevels: []
+    - pos: J
+      letters:
+      - "\u043E"
+      - "\u041E"
+      - 
+      - 
+      shiftLevels: []
+    - pos: K
+      letters:
+      - "\u043B"
+      - "\u041B"
+      - 
+      - 
+      shiftLevels: []
+    - pos: L
+      letters:
+      - "\u0434"
+      - "\u0414"
+      - 
+      - 
+      shiftLevels: []
+    - pos: ;
+      letters:
+      - "\u0436"
+      - "\u0416"
+      - 
+      - 
+      shiftLevels: []
+    - pos: ''''
+      letters:
+      - "\u044D"
+      - "\u042D"
+      - 
+      - 
+      shiftLevels: []
+    - pos: ~
+      letters:
+      - "\u0451"
+      - "\u0401"
+      - 
+      - 
+      shiftLevels: []
+    - pos: \
+      letters:
+      - \
+      - /
+      - "\x1C"
+      - 
+      shiftLevels: []
+    - pos: Z
+      letters:
+      - "\u044F"
+      - "\u042F"
+      - 
+      - 
+      shiftLevels: []
+    - pos: X
+      letters:
+      - "\u0447"
+      - "\u0427"
+      - 
+      - 
+      shiftLevels: []
+    - pos: C
+      letters:
+      - "\u0441"
+      - "\u0421"
+      - 
+      - 
+      shiftLevels: []
+    - pos: V
+      letters:
+      - "\u043C"
+      - "\u041C"
+      - 
+      - 
+      shiftLevels: []
+    - pos: B
+      letters:
+      - "\u0438"
+      - "\u0418"
+      - 
+      - 
+      shiftLevels: []
+    - pos: N
+      letters:
+      - "\u0442"
+      - "\u0422"
+      - 
+      - 
+      shiftLevels: []
+    - pos: M
+      letters:
+      - "\u044C"
+      - "\u042C"
+      - 
+      - 
+      shiftLevels: []
+    - pos: ','
+      letters:
+      - "\u0431"
+      - "\u0411"
+      - 
+      - 
+      shiftLevels: []
+    - pos: .
+      letters:
+      - "\u044E"
+      - "\u042E"
+      - 
+      - 
+      shiftLevels: []
+    - pos: /
+      letters:
+      - .
+      - ','
+      - 
+      - 
+      shiftLevels: []
+    - pos: Space
+      letters:
+      - ' '
+      - ' '
+      - ' '
+      - 
+      shiftLevels: []
+    - pos: Iso
+      letters:
+      - \
+      - /
+      - "\x1C"
+      - 
+      shiftLevels: []
+    - pos: KP_Dec
+      letters:
+      - ','
+      - ','
+      - 
+      - 
+      shiftLevels: []
+    customDeadKeys: []
+    variants: []
+  maxShiftLevels: 0

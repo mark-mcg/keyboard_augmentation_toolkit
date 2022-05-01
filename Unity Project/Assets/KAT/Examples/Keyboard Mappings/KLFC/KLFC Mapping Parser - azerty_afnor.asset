@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2779c79e1b7ab3f4785ce4e246fa12a8, type: 3}
+  m_Name: KLFC Mapping Parser - azerty_afnor
+  m_EditorClassIdentifier: 
+  JsonFile: {fileID: 4900000, guid: 015a1fb5329f5ce4a986f6f225fef0be, type: 3}
+  parsedRoot:
+    fullName: French (Azerty Afnor)
+    name: fr-azerty_afnor
+    description: 
+    qwertyShortcuts: 0
+    filter: 
+    shiftLevels:
+    - None
+    - Shift
+    - AltGr
+    - Shift+AltGr
+    keys:
+    - pos: ~
+      letters:
+      - '@'
+      - '#'
+      - breve
+      - invertedbreve
+      shiftLevels: []
+    - pos: 1
+      letters:
+      - "\xE0"
+      - 1
+      - "\xA7"
+      - "\xC0"
+      shiftLevels: []
+    - pos: 2
+      letters:
+      - "\xE9"
+      - 2
+      - acute
+      - "\xC9"
+      shiftLevels: []
+    - pos: 3
+      letters:
+      - "\xE8"
+      - 3
+      - grave
+      - "\xC8"
+      shiftLevels: []
+    - pos: 4
+      letters:
+      - "\xEA"
+      - 4
+      - '&'
+      - "\xCA"
+      shiftLevels: []
+    - pos: 5
+      letters:
+      - (
+      - 5
+      - '['
+      - doubleacute
+      shiftLevels: []
+    - pos: 6
+      letters:
+      - )
+      - 6
+      - ']'
+      - doublegrave
+      shiftLevels: []
+    - pos: 7
+      letters:
+      - "\u2018"
+      - 7
+      - macron
+      shiftLevels: []
+    - pos: 8
+      letters:
+      - "\u2019"
+      - 8
+      - _
+      - "\u2014"
+      shiftLevels: []
+    - pos: 9
+      letters:
+      - "\xAB"
+      - 9
+      - "\u201C"
+      - "\u2039"
+      shiftLevels: []
+    - pos: 0
+      letters:
+      - "\xBB"
+      - 0
+      - "\u201D"
+      - "\u203A"
+      shiftLevels: []
+    - pos: '-'
+      letters:
+      - ''''
+      - '"'
+      - "\xB0"
+      - abovering
+      shiftLevels: []
+    - pos: +
+      letters:
+      - circumflex
+      - diaeresis
+      - caron
+      shiftLevels: []
+    - pos: Q
+      letters:
+      - a
+      - A
+      - "\xE6"
+      - "\xC6"
+      shiftLevels: []
+    - pos: W
+      letters:
+      - z
+      - Z
+      - "\xA3"
+      shiftLevels: []
+    - pos: E
+      letters:
+      - e
+      - E
+      - "\u20AC"
+      - E
+      shiftLevels: []
+    - pos: R
+      letters:
+      - r
+      - R
+      - "\xAE"
+      shiftLevels: []
+    - pos: T
+      letters:
+      - t
+      - T
+      - '{'
+      - "\u2122"
+      shiftLevels: []
+    - pos: Y
+      letters:
+      - y
+      - Y
+      - '}'
+      shiftLevels: []
+    - pos: U
+      letters:
+      - u
+      - U
+      - "\xF9"
+      - "\xD9"
+      shiftLevels: []
+    - pos: I
+      letters:
+      - i
+      - I
+      - abovedot
+      - belowdot
+      shiftLevels: []
+    - pos: O
+      letters:
+      - o
+      - O
+      - "\u0153"
+      - "\u0152"
+      shiftLevels: []
+    - pos: P
+      letters:
+      - p
+      - P
+      - '%'
+      - "\u2030"
+      shiftLevels: []
+    - pos: '['
+      letters:
+      - '-'
+      - "\u2013"
+      - "\u2212"
+      - "\u2011"
+      shiftLevels: []
+    - pos: ']'
+      letters:
+      - +
+      - "\xB1"
+      - "\u2020"
+      - "\u2021"
+      shiftLevels: []
+    - pos: A
+      letters:
+      - q
+      - Q
+      - "\u03B8"
+      - "\u0398"
+      shiftLevels: []
+    - pos: S
+      letters:
+      - s
+      - S
+      - "\xDF"
+      shiftLevels: []
+    - pos: D
+      letters:
+      - d
+      - D
+      - $
+      shiftLevels: []
+    - pos: F
+      letters:
+      - f
+      - F
+      - compose
+      shiftLevels: []
+    - pos: G
+      letters:
+      - g
+      - G
+      - compose
+      shiftLevels: []
+    - pos: H
+      letters:
+      - h
+      - H
+      - compose
+      shiftLevels: []
+    - pos: J
+      letters:
+      - j
+      - J
+      shiftLevels: []
+    - pos: K
+      letters:
+      - k
+      - K
+      - stroke
+      shiftLevels: []
+    - pos: L
+      letters:
+      - l
+      - L
+      - '|'
+      shiftLevels: []
+    - pos: ;
+      letters:
+      - m
+      - M
+      - "\u221E"
+      shiftLevels: []
+    - pos: ''''
+      letters:
+      - /
+      - \
+      - "\xF7"
+      - "\u221A"
+      shiftLevels: []
+    - pos: \
+      letters:
+      - '*'
+      - "\xBD"
+      - "\xD7"
+      - "\xBC"
+      shiftLevels: []
+    - pos: Iso
+      letters:
+      - <
+      - '>'
+      - "\u2264"
+      - "\u2265"
+      shiftLevels: []
+    - pos: Z
+      letters:
+      - w
+      - W
+      - "\u01EF"
+      - "\u01EE"
+      shiftLevels: []
+    - pos: X
+      letters:
+      - x
+      - X
+      - "\xA9"
+      shiftLevels: []
+    - pos: C
+      letters:
+      - c
+      - C
+      - "\xE7"
+      - "\xC7"
+      shiftLevels: []
+    - pos: V
+      letters:
+      - v
+      - V
+      - cedilla
+      - ogonek
+      shiftLevels: []
+    - pos: B
+      letters:
+      - b
+      - B
+      - stroke
+      shiftLevels: []
+    - pos: N
+      letters:
+      - n
+      - N
+      - tilde
+      shiftLevels: []
+    - pos: M
+      letters:
+      - .
+      - '?'
+      - "\xBF"
+      shiftLevels: []
+    - pos: ','
+      letters:
+      - ','
+      - '!'
+      - "\xA1"
+      - belowcomma
+      shiftLevels: []
+    - pos: .
+      letters:
+      - ':'
+      - "\u2026"
+      - "\xB7"
+      shiftLevels: []
+    - pos: /
+      letters:
+      - ;
+      - =
+      - "\u2243"
+      - "\u2260"
+      shiftLevels: []
+    - pos: Space
+      letters:
+      - ' '
+      - ' '
+      - "\_"
+      - "\u202F"
+      shiftLevels: []
+    customDeadKeys: []
+    variants: []
+  maxShiftLevels: 3

@@ -1,0 +1,8 @@
+{
+	"keyboard":"G810.obj",
+	"textures":[
+	{"filename":"s4_albedo.png", "uniform":"mainTexture"},
+	{"filename":"T_Logi_G810_ao.png", "uniform":"ambientOcclusion"},
+	{"filename":"T_Logi_G810_normal.png", "uniform":"normalMap"}
+	]
+}

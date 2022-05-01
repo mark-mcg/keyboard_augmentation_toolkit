@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2779c79e1b7ab3f4785ce4e246fa12a8, type: 3}
+  m_Name: KLFC Mapping Parser - German
+  m_EditorClassIdentifier: 
+  JsonFile: {fileID: 4900000, guid: e72c76c025673284ca4133c2b456770e, type: 3}
+  parsedRoot:
+    fullName: German - Custom
+    name: Layout01
+    description: 
+    qwertyShortcuts: 0
+    filter: 
+    shiftLevels:
+    - None
+    - Shift
+    - Control
+    - Alt+Control
+    - Shift+Alt+Control
+    keys:
+    - pos: 1
+      letters:
+      - 1
+      - '!'
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: 2
+      letters:
+      - 2
+      - '"'
+      - 
+      - "\xB2"
+      - 
+      shiftLevels: []
+    - pos: 3
+      letters:
+      - 3
+      - "\xA7"
+      - 
+      - "\xB3"
+      - 
+      shiftLevels: []
+    - pos: 4
+      letters:
+      - 4
+      - $
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: 5
+      letters:
+      - 5
+      - '%'
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: 6
+      letters:
+      - 6
+      - '&'
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: 7
+      letters:
+      - 7
+      - /
+      - 
+      - '{'
+      - 
+      shiftLevels: []
+    - pos: 8
+      letters:
+      - 8
+      - (
+      - 
+      - '['
+      - 
+      shiftLevels: []
+    - pos: 9
+      letters:
+      - 9
+      - )
+      - 
+      - ']'
+      - 
+      shiftLevels: []
+    - pos: 0
+      letters:
+      - 0
+      - =
+      - 
+      - '}'
+      - 
+      shiftLevels: []
+    - pos: '-'
+      letters:
+      - "\xDF"
+      - '?'
+      - 
+      - \
+      - "\u1E9E"
+      shiftLevels: []
+    - pos: +
+      letters:
+      - "cdk:\xB4"
+      - cdk:`
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: Q
+      letters:
+      - q
+      - Q
+      - 
+      - '@'
+      - 
+      shiftLevels: []
+    - pos: W
+      letters:
+      - w
+      - W
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: E
+      letters:
+      - e
+      - E
+      - 
+      - "\u20AC"
+      - 
+      shiftLevels: []
+    - pos: R
+      letters:
+      - r
+      - R
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: T
+      letters:
+      - t
+      - T
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: Y
+      letters:
+      - z
+      - Z
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: U
+      letters:
+      - u
+      - U
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: I
+      letters:
+      - i
+      - I
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: O
+      letters:
+      - o
+      - O
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: P
+      letters:
+      - p
+      - P
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: '['
+      letters:
+      - "\xFC"
+      - "\xDC"
+      - "\e"
+      - 
+      - 
+      shiftLevels: []
+    - pos: ']'
+      letters:
+      - +
+      - '*'
+      - "\x1D"
+      - ~
+      - 
+      shiftLevels: []
+    - pos: A
+      letters:
+      - a
+      - A
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: S
+      letters:
+      - s
+      - S
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: D
+      letters:
+      - d
+      - D
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: F
+      letters:
+      - f
+      - F
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: G
+      letters:
+      - g
+      - G
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: H
+      letters:
+      - h
+      - H
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: J
+      letters:
+      - j
+      - J
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: K
+      letters:
+      - k
+      - K
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: L
+      letters:
+      - l
+      - L
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: ;
+      letters:
+      - "\xF6"
+      - "\xD6"
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: ''''
+      letters:
+      - "\xE4"
+      - "\xC4"
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: ~
+      letters:
+      - cdk:^
+      - "\xB0"
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: \
+      letters:
+      - '#'
+      - ''''
+      - "\x1C"
+      - 
+      - 
+      shiftLevels: []
+    - pos: Z
+      letters:
+      - y
+      - Y
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: X
+      letters:
+      - x
+      - X
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: C
+      letters:
+      - c
+      - C
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: V
+      letters:
+      - v
+      - V
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: B
+      letters:
+      - b
+      - B
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: N
+      letters:
+      - n
+      - N
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: M
+      letters:
+      - m
+      - M
+      - 
+      - "\xB5"
+      - 
+      shiftLevels: []
+    - pos: ','
+      letters:
+      - ','
+      - ;
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: .
+      letters:
+      - .
+      - ':'
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: /
+      letters:
+      - '-'
+      - _
+      - 
+      - 
+      - 
+      shiftLevels: []
+    - pos: Space
+      letters:
+      - ' '
+      - ' '
+      - ' '
+      - 
+      - 
+      shiftLevels: []
+    - pos: Iso
+      letters:
+      - <
+      - '>'
+      - 
+      - '|'
+      - 
+      shiftLevels: []
+    - pos: KP_Dec
+      letters:
+      - ','
+      - ','
+      - 
+      - 
+      - 
+      shiftLevels: []
+    customDeadKeys: []
+    variants: []
+  maxShiftLevels: 0

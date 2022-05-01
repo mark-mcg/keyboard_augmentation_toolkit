@@ -1,0 +1,1492 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: office_lighter
+  m_EditorClassIdentifier: 
+  hashCode: -589584234
+  material: {fileID: 21779363072796708}
+  materialHashCode: 0
+  m_Version: 1.1.0
+  spriteSheet: {fileID: 2800000, guid: aac469e4d2896604fb729730f9132162, type: 3}
+  m_SpriteCharacterTable:
+  - m_ElementType: 2
+    m_Unicode: 4291756015
+    m_GlyphIndex: 0
+    m_Scale: 1
+    m_Name: AlignCenter
+    m_HashCode: 159272262
+  - m_ElementType: 2
+    m_Unicode: 2147483647
+    m_GlyphIndex: 1
+    m_Scale: 1
+    m_Name: AlignJustify
+    m_HashCode: -1302313437
+  - m_ElementType: 2
+    m_Unicode: 4294967039
+    m_GlyphIndex: 2
+    m_Scale: 1
+    m_Name: AlignLeft
+    m_HashCode: -1290192426
+  - m_ElementType: 2
+    m_Unicode: 2147483647
+    m_GlyphIndex: 3
+    m_Scale: 1
+    m_Name: AlignRight
+    m_HashCode: 413067757
+  - m_ElementType: 2
+    m_Unicode: 49149
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: Bold
+    m_HashCode: 2491237
+  - m_ElementType: 2
+    m_Unicode: 2146434815
+    m_GlyphIndex: 5
+    m_Scale: 1
+    m_Name: CancelRequest
+    m_HashCode: 2022974231
+  - m_ElementType: 2
+    m_Unicode: 53247
+    m_GlyphIndex: 6
+    m_Scale: 1
+    m_Name: Copy
+    m_HashCode: 2451909
+  - m_ElementType: 2
+    m_Unicode: 3327
+    m_GlyphIndex: 7
+    m_Scale: 1
+    m_Name: Cut
+    m_HashCode: 74722
+  - m_ElementType: 2
+    m_Unicode: 3754950399
+    m_GlyphIndex: 8
+    m_Scale: 1
+    m_Name: EndOfDocument
+    m_HashCode: -1099175639
+  - m_ElementType: 2
+    m_Unicode: 1610603262
+    m_GlyphIndex: 9
+    m_Scale: 1
+    m_Name: FieldsUpdate
+    m_HashCode: -595596800
+  - m_ElementType: 2
+    m_Unicode: 4294901743
+    m_GlyphIndex: 10
+    m_Scale: 1
+    m_Name: FileOpen
+    m_HashCode: -853129966
+  - m_ElementType: 2
+    m_Unicode: 2146435071
+    m_GlyphIndex: 11
+    m_Scale: 1
+    m_Name: FilePrint
+    m_HashCode: 1923246711
+  - m_ElementType: 2
+    m_Unicode: 4294900478
+    m_GlyphIndex: 12
+    m_Scale: 1
+    m_Name: FileSave
+    m_HashCode: -852724185
+  - m_ElementType: 2
+    m_Unicode: 4277862063
+    m_GlyphIndex: 13
+    m_Scale: 1
+    m_Name: FileSaveAs
+    m_HashCode: -903699339
+  - m_ElementType: 2
+    m_Unicode: 2144333807
+    m_GlyphIndex: 14
+    m_Scale: 1
+    m_Name: FontSchemes
+    m_HashCode: -1550067147
+  - m_ElementType: 2
+    m_Unicode: 2116026367
+    m_GlyphIndex: 15
+    m_Scale: 1
+    m_Name: FontSizeDecrease1Point
+    m_HashCode: 97396361
+  - m_ElementType: 2
+    m_Unicode: 4263510015
+    m_GlyphIndex: 16
+    m_Scale: 1
+    m_Name: FontSizeIncrease1Point
+    m_HashCode: 1916143407
+  - m_ElementType: 2
+    m_Unicode: 65535
+    m_GlyphIndex: 17
+    m_Scale: 1
+    m_Name: GoTo
+    m_HashCode: 2586099
+  - m_ElementType: 2
+    m_Unicode: 4025286655
+    m_GlyphIndex: 18
+    m_Scale: 1
+    m_Name: GroupAttachmentSelection
+    m_HashCode: -18374266
+  - m_ElementType: 2
+    m_Unicode: 65279
+    m_GlyphIndex: 19
+    m_Scale: 1
+    m_Name: Help
+    m_HashCode: 2556593
+  - m_ElementType: 2
+    m_Unicode: 4294955007
+    m_GlyphIndex: 20
+    m_Scale: 1
+    m_Name: HelpKeyboardShortcuts
+    m_HashCode: 203168095
+  - m_ElementType: 2
+    m_Unicode: 16756732
+    m_GlyphIndex: 21
+    m_Scale: 1
+    m_Name: Italic
+    m_HashCode: -1527146214
+  - m_ElementType: 2
+    m_Unicode: 3754950399
+    m_GlyphIndex: 22
+    m_Scale: 1
+    m_Name: NewOfficeDocument
+    m_HashCode: -1572188941
+  - m_ElementType: 2
+    m_Unicode: 65279
+    m_GlyphIndex: 23
+    m_Scale: 1
+    m_Name: Next
+    m_HashCode: 2903655
+  - m_ElementType: 2
+    m_Unicode: 4278188798
+    m_GlyphIndex: 24
+    m_Scale: 1
+    m_Name: NextPage
+    m_HashCode: -1060161996
+  - m_ElementType: 2
+    m_Unicode: 4211015423
+    m_GlyphIndex: 25
+    m_Scale: 1
+    m_Name: PageNext
+    m_HashCode: 1009528628
+  - m_ElementType: 2
+    m_Unicode: 4278190077
+    m_GlyphIndex: 26
+    m_Scale: 1
+    m_Name: PageNextWord
+    m_HashCode: -932047878
+  - m_ElementType: 2
+    m_Unicode: 2147483645
+    m_GlyphIndex: 27
+    m_Scale: 1
+    m_Name: PagePreviousWord
+    m_HashCode: -1799636660
+  - m_ElementType: 2
+    m_Unicode: 3741318911
+    m_GlyphIndex: 28
+    m_Scale: 1
+    m_Name: ParagraphIndentLeft
+    m_HashCode: -1790387415
+  - m_ElementType: 2
+    m_Unicode: 1028094
+    m_GlyphIndex: 29
+    m_Scale: 1
+    m_Name: Paste
+    m_HashCode: 93705907
+  - m_ElementType: 2
+    m_Unicode: 2147482366
+    m_GlyphIndex: 30
+    m_Scale: 1
+    m_Name: PreviousPage
+    m_HashCode: -2018268606
+  - m_ElementType: 2
+    m_Unicode: 65247
+    m_GlyphIndex: 31
+    m_Scale: 1
+    m_Name: Redo
+    m_HashCode: 3055740
+  - m_ElementType: 2
+    m_Unicode: 16711343
+    m_GlyphIndex: 32
+    m_Scale: 1
+    m_Name: Repeat
+    m_HashCode: -967711785
+  - m_ElementType: 2
+    m_Unicode: 1323282431
+    m_GlyphIndex: 33
+    m_Scale: 1
+    m_Name: ReplaceDialog
+    m_HashCode: -1270078684
+  - m_ElementType: 2
+    m_Unicode: 4272934911
+    m_GlyphIndex: 34
+    m_Scale: 1
+    m_Name: SearchUI
+    m_HashCode: -29920718
+  - m_ElementType: 2
+    m_Unicode: 1877801727
+    m_GlyphIndex: 35
+    m_Scale: 1
+    m_Name: SelectAll
+    m_HashCode: 2069412969
+  - m_ElementType: 2
+    m_Unicode: 2147483391
+    m_GlyphIndex: 36
+    m_Scale: 1
+    m_Name: SpellingMenu
+    m_HashCode: 1061303477
+  - m_ElementType: 2
+    m_Unicode: 3754950399
+    m_GlyphIndex: 37
+    m_Scale: 1
+    m_Name: StartOfDocument
+    m_HashCode: -1342792858
+  - m_ElementType: 2
+    m_Unicode: 2112880638
+    m_GlyphIndex: 38
+    m_Scale: 1
+    m_Name: Underline
+    m_HashCode: 86768614
+  - m_ElementType: 2
+    m_Unicode: 65503
+    m_GlyphIndex: 39
+    m_Scale: 1
+    m_Name: Undo
+    m_HashCode: 2953488
+  - m_ElementType: 2
+    m_Unicode: 1610416126
+    m_GlyphIndex: 40
+    m_Scale: 1
+    m_Name: XDPPClose
+    m_HashCode: -1357593622
+  m_SpriteGlyphTable:
+  - m_Index: 0
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 896
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 896
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 2
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 896
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 896
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 768
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 5
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 768
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 6
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 768
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 7
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 768
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 8
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 640
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 9
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 640
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 10
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 640
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 11
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 640
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 12
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 512
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 13
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 512
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 14
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 512
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 15
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 512
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 16
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 384
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 17
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 384
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 18
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 384
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 384
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 20
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 21
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 22
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 23
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 24
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 25
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 26
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 27
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 28
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 29
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: 0
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 30
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: 0
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 31
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: 0
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 32
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: -128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 33
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: -128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 34
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: -128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 35
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: -128
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 36
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: -256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 37
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 128
+      m_Y: -256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 38
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 256
+      m_Y: -256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 39
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 384
+      m_Y: -256
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  - m_Index: 40
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: -64
+      m_HorizontalBearingY: 64
+      m_HorizontalAdvance: 128
+    m_GlyphRect:
+      m_X: 0
+      m_Y: -384
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 0}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 896
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: AlignCenter
+    hashCode: 159272262
+    unicode: -3211281
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 1
+    x: 128
+    y: 896
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: AlignJustify
+    hashCode: -1302313437
+    unicode: 2147483647
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 2
+    x: 256
+    y: 896
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: AlignLeft
+    hashCode: -1290192426
+    unicode: -257
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 3
+    x: 384
+    y: 896
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: AlignRight
+    hashCode: 413067757
+    unicode: 2147483647
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 4
+    x: 0
+    y: 768
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Bold
+    hashCode: 2491237
+    unicode: 49149
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 5
+    x: 128
+    y: 768
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: CancelRequest
+    hashCode: 2022974231
+    unicode: 2146434815
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 6
+    x: 256
+    y: 768
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Copy
+    hashCode: 2451909
+    unicode: 53247
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 7
+    x: 384
+    y: 768
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Cut
+    hashCode: 74722
+    unicode: 3327
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 8
+    x: 0
+    y: 640
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: EndOfDocument
+    hashCode: -1099175639
+    unicode: -540016897
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 9
+    x: 128
+    y: 640
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FieldsUpdate
+    hashCode: -595596800
+    unicode: 1610603262
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 10
+    x: 256
+    y: 640
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FileOpen
+    hashCode: -853129966
+    unicode: -65553
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 11
+    x: 384
+    y: 640
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FilePrint
+    hashCode: 1923246711
+    unicode: 2146435071
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 12
+    x: 0
+    y: 512
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FileSave
+    hashCode: -852724185
+    unicode: -66818
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 13
+    x: 128
+    y: 512
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FileSaveAs
+    hashCode: -903699339
+    unicode: -17105233
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 14
+    x: 256
+    y: 512
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FontSchemes
+    hashCode: -1550067147
+    unicode: 2144333807
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 15
+    x: 384
+    y: 512
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FontSizeDecrease1Point
+    hashCode: 97396361
+    unicode: 2116026367
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 16
+    x: 0
+    y: 384
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: FontSizeIncrease1Point
+    hashCode: 1916143407
+    unicode: -31457281
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 17
+    x: 128
+    y: 384
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: GoTo
+    hashCode: 2586099
+    unicode: 65535
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 18
+    x: 256
+    y: 384
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: GroupAttachmentSelection
+    hashCode: -18374266
+    unicode: -269680641
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 19
+    x: 384
+    y: 384
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Help
+    hashCode: 2556593
+    unicode: 65279
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 20
+    x: 0
+    y: 256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: HelpKeyboardShortcuts
+    hashCode: 203168095
+    unicode: -12289
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 21
+    x: 128
+    y: 256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Italic
+    hashCode: -1527146214
+    unicode: 16756732
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 22
+    x: 256
+    y: 256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: NewOfficeDocument
+    hashCode: -1572188941
+    unicode: -540016897
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 23
+    x: 384
+    y: 256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Next
+    hashCode: 2903655
+    unicode: 65279
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 24
+    x: 0
+    y: 128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: NextPage
+    hashCode: -1060161996
+    unicode: -16778498
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 25
+    x: 128
+    y: 128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: PageNext
+    hashCode: 1009528628
+    unicode: -83951873
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 26
+    x: 256
+    y: 128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: PageNextWord
+    hashCode: -932047878
+    unicode: -16777219
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 27
+    x: 384
+    y: 128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: PagePreviousWord
+    hashCode: -1799636660
+    unicode: 2147483645
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 28
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: ParagraphIndentLeft
+    hashCode: -1790387415
+    unicode: -553648385
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 29
+    x: 128
+    y: 0
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Paste
+    hashCode: 93705907
+    unicode: 1028094
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 30
+    x: 256
+    y: 0
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: PreviousPage
+    hashCode: -2018268606
+    unicode: 2147482366
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 31
+    x: 384
+    y: 0
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Redo
+    hashCode: 3055740
+    unicode: 65247
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 32
+    x: 0
+    y: -128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Repeat
+    hashCode: -967711785
+    unicode: 16711343
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 33
+    x: 128
+    y: -128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: ReplaceDialog
+    hashCode: -1270078684
+    unicode: 1323282431
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 34
+    x: 256
+    y: -128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: SearchUI
+    hashCode: -29920718
+    unicode: -22032385
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 35
+    x: 384
+    y: -128
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: SelectAll
+    hashCode: 2069412969
+    unicode: 1877801727
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 36
+    x: 0
+    y: -256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: SpellingMenu
+    hashCode: 1061303477
+    unicode: 2147483391
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 37
+    x: 128
+    y: -256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: StartOfDocument
+    hashCode: -1342792858
+    unicode: -540016897
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 38
+    x: 256
+    y: -256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Underline
+    hashCode: 86768614
+    unicode: 2112880638
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 39
+    x: 384
+    y: -256
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: Undo
+    hashCode: 2953488
+    unicode: 65503
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 40
+    x: 0
+    y: -384
+    width: 128
+    height: 128
+    xOffset: -64
+    yOffset: 64
+    xAdvance: 128
+    scale: 1
+    name: XDPPClose
+    hashCode: -1357593622
+    unicode: 1610416126
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  fallbackSpriteAssets: []
+--- !u!21 &21779363072796708
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: aac469e4d2896604fb729730f9132162, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2779c79e1b7ab3f4785ce4e246fa12a8, type: 3}
+  m_Name: KLFC Mapping Parser - Azerty
+  m_EditorClassIdentifier: 
+  JsonFile: {fileID: 4900000, guid: 17d49ff77de951741879fdd1b03e618c, type: 3}
+  parsedRoot:
+    fullName: 
+    name: 
+    description: 
+    qwertyShortcuts: 0
+    filter: 
+    shiftLevels:
+    - None
+    - Shift
+    - AltGr
+    keys:
+    - pos: ~
+      letters:
+      - "\xB2"
+      shiftLevels: []
+    - pos: 1
+      letters:
+      - '&'
+      - 1
+      shiftLevels: []
+    - pos: 2
+      letters:
+      - "\xE9"
+      - 2
+      - ~
+      shiftLevels: []
+    - pos: 3
+      letters:
+      - '"'
+      - 3
+      - '#'
+      shiftLevels: []
+    - pos: 4
+      letters:
+      - ''''
+      - 4
+      - '{'
+      shiftLevels: []
+    - pos: 5
+      letters:
+      - (
+      - 5
+      - '['
+      shiftLevels: []
+    - pos: 6
+      letters:
+      - '-'
+      - 6
+      - "\xA6"
+      shiftLevels: []
+    - pos: 7
+      letters:
+      - "\xE8"
+      - 7
+      - '`'
+      shiftLevels: []
+    - pos: 8
+      letters:
+      - _
+      - 8
+      - \
+      shiftLevels: []
+    - pos: 9
+      letters:
+      - "\xE7"
+      - 9
+      - ^
+      shiftLevels: []
+    - pos: 0
+      letters:
+      - "\xE0"
+      - 0
+      - '@'
+      shiftLevels: []
+    - pos: '-'
+      letters:
+      - )
+      - "\xB0"
+      - ']'
+      shiftLevels: []
+    - pos: +
+      letters:
+      - =
+      - +
+      - '}'
+      shiftLevels: []
+    - pos: Q
+      letters:
+      - a
+      - A
+      shiftLevels: []
+    - pos: W
+      letters:
+      - z
+      - Z
+      shiftLevels: []
+    - pos: E
+      letters:
+      - e
+      - E
+      - "\u20AC"
+      shiftLevels: []
+    - pos: R
+      letters:
+      - r
+      - R
+      shiftLevels: []
+    - pos: T
+      letters:
+      - t
+      - T
+      shiftLevels: []
+    - pos: Y
+      letters:
+      - y
+      - Y
+      shiftLevels: []
+    - pos: U
+      letters:
+      - u
+      - U
+      shiftLevels: []
+    - pos: I
+      letters:
+      - i
+      - I
+      shiftLevels: []
+    - pos: O
+      letters:
+      - o
+      - O
+      shiftLevels: []
+    - pos: P
+      letters:
+      - p
+      - P
+      shiftLevels: []
+    - pos: '['
+      letters:
+      - circumflex
+      - diaeresis
+      shiftLevels: []
+    - pos: ']'
+      letters:
+      - $
+      - "\xA3"
+      - "\xA4"
+      shiftLevels: []
+    - pos: \
+      letters:
+      - '*'
+      - "\xB5"
+      shiftLevels: []
+    - pos: A
+      letters:
+      - q
+      - Q
+      shiftLevels: []
+    - pos: S
+      letters:
+      - s
+      - S
+      shiftLevels: []
+    - pos: D
+      letters:
+      - d
+      - D
+      shiftLevels: []
+    - pos: F
+      letters:
+      - f
+      - F
+      shiftLevels: []
+    - pos: G
+      letters:
+      - g
+      - G
+      shiftLevels: []
+    - pos: H
+      letters:
+      - h
+      - H
+      shiftLevels: []
+    - pos: J
+      letters:
+      - j
+      - J
+      shiftLevels: []
+    - pos: K
+      letters:
+      - k
+      - K
+      shiftLevels: []
+    - pos: L
+      letters:
+      - l
+      - L
+      shiftLevels: []
+    - pos: ;
+      letters:
+      - m
+      - M
+      shiftLevels: []
+    - pos: ''''
+      letters:
+      - "\xF9"
+      - '%'
+      shiftLevels: []
+    - pos: Iso
+      letters:
+      - <
+      - '>'
+      shiftLevels: []
+    - pos: Z
+      letters:
+      - w
+      - W
+      shiftLevels: []
+    - pos: X
+      letters:
+      - x
+      - X
+      shiftLevels: []
+    - pos: C
+      letters:
+      - c
+      - C
+      shiftLevels: []
+    - pos: V
+      letters:
+      - v
+      - V
+      shiftLevels: []
+    - pos: B
+      letters:
+      - b
+      - B
+      shiftLevels: []
+    - pos: N
+      letters:
+      - n
+      - N
+      shiftLevels: []
+    - pos: M
+      letters:
+      - ','
+      - '?'
+      shiftLevels: []
+    - pos: ','
+      letters:
+      - ;
+      - .
+      shiftLevels: []
+    - pos: .
+      letters:
+      - ':'
+      - /
+      shiftLevels: []
+    - pos: /
+      letters:
+      - '!'
+      - "\xA7"
+      shiftLevels: []
+    customDeadKeys: []
+    variants: []
+  maxShiftLevels: 0
+  consumeKeyPress: 1
